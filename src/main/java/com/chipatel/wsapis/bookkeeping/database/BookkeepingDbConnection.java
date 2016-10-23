@@ -25,7 +25,7 @@ public class BookkeepingDbConnection {
 
 			connection = DriverManager.getConnection(
 					"jdbc:mysql://localhost:3306/bookkeeping?useJDBCCompliantTimezoneShift=true&serverTimezone=UTC",
-					"root", "swamibapa");
+					"username", "password");
 		} catch (Exception e) {
 			System.out.println(e);
 		}
